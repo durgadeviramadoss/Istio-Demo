@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: pavanraj29/helloworld:IMGVERSION
+        image: durgaoct1989/helloworld:IMGVERSION
         resources:
           requests:
             cpu: "100m"
