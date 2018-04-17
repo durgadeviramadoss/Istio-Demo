@@ -6,7 +6,7 @@ pipeline {
    }
    parameters {
        string(defaultValue: 'pre', description: 'current app version', name: 'CurrVersion')
-       string(defaultValue: 'pavanraj29/helloworld', description: 'docker image name', name: 'image')
+       string(defaultValue: 'durgaoct1989/helloworld', description: 'docker image name', name: 'image')
     }
    environment {
        VERSION = "${BUILD_ID}"
